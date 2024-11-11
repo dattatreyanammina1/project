@@ -1,0 +1,28 @@
+.footer {
+    background-color: #1e3b32; /* Example dark green color */
+    color: #ffffff;
+  }
+  
+  #footerInfoBar {
+    background-color: #345c49; /* Slightly lighter green */
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  .footerInfoItems {
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+  
+  .footerInfoItems:hover {
+    color: #c3e287; /* Light green hover effect */
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }
+  
+  .link-info {
+    color: #e2f7e5;
+  }
+  

@@ -1,0 +1,38 @@
+.nav-link {
+    background: none;
+    border: none;
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: underline; /* Add underline to resemble links */
+    padding: 0; /* Remove default padding */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Change color on hover (Bootstrap primary color) */
+}
+
+.navbar-brand img {
+    height: 40px; /* Adjust logo size */
+}
+
+.goOnTop {
+    display: flex; /* Flex for center alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Styling for the button to look like a link */
+.btnContact {
+    background-color: transparent; /* Remove background */
+    border: 1px solid #007bff; /* Bootstrap primary border */
+    color: #007bff; /* Bootstrap primary text color */
+    padding: 0.5rem 1rem; /* Add padding */
+    border-radius: 0.5rem; /* Round the corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+}
+
+.btnContact:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}

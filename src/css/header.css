@@ -1,0 +1,25 @@
+.header {
+    background-color: #1e3b32; /* Dark green background */
+  }
+  
+  #topBanner {
+    background-color: #345c49; /* Slightly lighter green */
+    border-radius: 8px;
+  }
+  
+  #ctaLink {
+    color: #e2f7e5;
+    text-decoration: none;
+  }
+  
+  #ctaLink:hover {
+    color: #c3e287; /* Light green hover effect */
+  }
+  
+  .divider {
+    border-top: 1px solid #3e5d51; /* Divider line styling */
+  }
+  
+  .text-white {
+    color: #ffffff;
+  }  

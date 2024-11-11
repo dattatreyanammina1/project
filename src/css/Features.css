@@ -1,0 +1,88 @@
+/* Features Section Styling */
+.features {
+    padding: 4rem 1.5rem;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 1rem;
+  }
+  
+  .features .description {
+    font-size: 1.1rem;
+    color: #666666;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Card Grid Styling */
+  .features .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #fbfef9; /* Very light green */
+    border: 1px solid #e2f0dc; /* Light green border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 2rem;
+    flex: 1 1 45%; /* Allows two cards per row */
+    max-width: 45%; /* Ensure each card takes about half the row */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    transition: transform 0.2s ease;
+    text-align: left;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    background-color: #d6f0c4; /* Light green background behind icon */
+    padding: 10px;
+    border-radius: 50%; /* Circle around the icon */
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    color: #333333;
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 0.5rem;
+    padding-left: 3.5rem; /* Align text with icon */
+  }
+  
+  /* Icon and Title Row */
+  .card .d-flex {
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .card {
+      flex: 1 1 100%; /* Full width on smaller screens */
+      max-width: 100%;
+    }
+    .features .row {
+      gap: 1rem;
+    }
+  }
+  
